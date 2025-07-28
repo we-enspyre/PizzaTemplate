@@ -68,8 +68,7 @@ const Home = () => {
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Åbningstider</h3>
                 <p className="text-muted-foreground">
-                  Man-Tors: 15:00-22:00<br />
-                  Fre-Søn: 15:00-23:00
+                  Man-Søn: 15:00-21:00<br />
                 </p>
               </CardContent>
             </Card>
@@ -97,33 +96,11 @@ const Home = () => {
                 <h3 className="font-semibold text-lg mb-2">Levering</h3>
                 <p className="text-muted-foreground">
                   Gratis levering<br />
-                  ved køb over 200 kr
+                  ved køb for over 200 kr
                 </p>
               </CardContent>
             </Card>
           </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-hero text-primary-foreground">
-        <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Klar til at bestille?
-          </h2>
-          <p className="text-xl mb-8 text-primary-foreground/90">
-            Oplev de bedste pizzaer i Danmark. Frisk, varm og leveret på under 30 minutter.
-          </p>
-          <Button 
-            variant="outline" 
-            size="xl" 
-            className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
-            asChild
-          >
-            <Link to="/bestil">
-              Bestil Din Pizza Nu
-            </Link>
-          </Button>
         </div>
       </section>
     </div>

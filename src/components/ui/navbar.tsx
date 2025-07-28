@@ -30,16 +30,6 @@ export function Navbar() {
             >
               Hjem
             </NavLink>
-            <NavLink 
-              to="/bestil" 
-              className={({ isActive }) =>
-                `text-sm font-medium transition-colors duration-300 hover:text-primary ${
-                  isActive ? 'text-primary border-b-2 border-primary' : 'text-muted-foreground'
-                }`
-              }
-            >
-              Bestil
-            </NavLink>
             <Button variant="hero" size="sm" asChild>
               <NavLink to="/bestil">
                 Bestil Nu
