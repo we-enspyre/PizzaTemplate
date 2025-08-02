@@ -15,7 +15,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/PizzaTemplate/">
         <div className="min-h-screen bg-background">
           <Navbar />
           <Routes>
