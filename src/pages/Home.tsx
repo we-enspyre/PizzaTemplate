@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Clock, Phone, Truck } from "lucide-react";
 import { Link } from "react-router-dom";
-import restaurantHero from "@/assets/restaurant-hero.jpg";
 
 const Home = () => {
   return (
@@ -11,7 +10,8 @@ const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${restaurantHero})` }}
+          style={{ backgroundImage: "url('/PizzaTemplate/restaurant-hero.jpg')" }}
+
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
         </div>

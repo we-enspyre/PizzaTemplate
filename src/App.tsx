@@ -7,6 +7,7 @@ import { Navbar } from "@/components/ui/navbar";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import NotFound from "./pages/NotFound";
+import Footer from "./pages/Footer";
 
 const queryClient = new QueryClient();
 
@@ -21,9 +22,11 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/bestil" element={<Menu />} />
+            
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <Footer/>
         </div>
       </BrowserRouter>
     </TooltipProvider>
