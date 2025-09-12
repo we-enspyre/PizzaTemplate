@@ -23,11 +23,13 @@ const Footer = () => {
         </div>
 
         {/* Logo */}
-        <div className="flex items-center text-white/60 text-sm">
+        <div className="flex items-center cursor-pointer hover:opacity-80 text-white/60 text-sm"
+        onClick={() => window.open("https://www.enspyre.dk/", "_blank")}>
           <img
             src={enspyreLogo}
+            
             alt="Enspyre Logo"
-            className="w-6 h-6 rounded-full mx-2"
+            className="w-6 h-6 rounded-full  mx-2"
           />
           ENSPYRE
         </div>
